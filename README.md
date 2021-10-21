@@ -8,6 +8,8 @@
 
 * Pythonのsubprocessの実装不備を想定。入力フォームから攻撃コマンドの実行が可能
 
+* developブランチは改善の一例
+
 ## 前提
 
 * Ubuntu 20.04.3 LTS で検証済み
