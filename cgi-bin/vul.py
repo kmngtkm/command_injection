@@ -13,7 +13,7 @@ form = cgi.FieldStorage()
 string = form.getvalue('string')
 # コマンドの組み立て
 cmd = "echo " + str(string) + " | rev"
-# コマンドの実行
+# subprocessでコマンドの実行
 vul = subprocess.run(cmd, shell=True, encoding='utf-8', stdout=subprocess.PIPE)
 
 # レスポンスヘッダの返却
